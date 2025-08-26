@@ -1,1 +1,12 @@
-console.log('I love git');
+const heading = document.getElementById("main-heading");
+heading.textContent = "Fruit World";
+heading.style.color = "orange";
+const div = document.getElementById("header");
+div.style.backgroundColor = "green";
+div.style.borderBottom = "1px solid orange";
+const basket = document.getElementById("basket-heading");
+basket.style.color = "green";
+const thank = document.getElementById("thanks");
+const para = document.createElement("p");
+para.textContent = "Please visit us again";
+thank.appendChild(para);
